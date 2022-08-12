@@ -1,0 +1,27 @@
+.button{
+	-fx-background-color:black;
+	-fx-text-fill:yellow;
+	-fx-font-weight:bold;
+	-fx-font-family:"Comic Sans";
+	-fx-font-size:25px;
+	-fx-border-color:yellow;
+	-fx-border-width:5;
+	-fx-border-radius: 5px;
+   	-fx-background-radius: 5px;
+}
+.button:hover {
+   -fx-background-color: orange;
+}
+.button:pressed {
+   -fx-background-color: orange;
+   -fx-text-fill:red;
+   -fx-border-color:red;
+}
+
+.label{
+	-fx-font-size:25px;
+}
+#SetupTitle {
+   -fx-font-size:40px;
+   -fx-font-weight:bold;
+}

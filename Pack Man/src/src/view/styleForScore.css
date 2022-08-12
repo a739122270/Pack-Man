@@ -1,0 +1,19 @@
+.button{
+	-fx-background-color:white;
+	-fx-text-fill: 	Teal;
+	-fx-font-weight:bold;
+	-fx-font-family:"Comic Sans";
+	-fx-font-size:25px;
+	-fx-border-color: 	Teal;
+	-fx-border-width:3;
+	-fx-border-radius: 5px;
+   	-fx-background-radius: 5px;
+}
+.button:hover {
+    -fx-text-fill: PowDerBlue;
+   -fx-border-color: PowDerBlue;
+}
+.button:pressed {
+   -fx-text-fill: 	Teal;
+   -fx-border-color: 	Teal;
+}
